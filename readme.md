@@ -6,6 +6,15 @@
 $ cd laradock
 $ ./start_docker.sh
 $ ./login_docker.sh
+
+// workspaceに入る
+$ cd app
+$ composer install
+$ yarn install
+$ yarn run watch
+
+// ビルド
+$ yarn run dev
 ```
 
 ## 環境を閉じる
