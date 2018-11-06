@@ -3,7 +3,7 @@
 ## 環境を立ち上げる
 
 ```bash
-$ cd laradock
+$ cd docker-laradock_practice
 $ ./start_docker.sh
 $ ./login_docker.sh
 
@@ -26,7 +26,7 @@ $ ./stop_docker.sh
 ## DBの確認
 
 ```
-$ cd laradock
+$ cd docker-laradock_practice
 $ docker exec -it <CONTAINER ID> bash
 $ mysql -u root
 $ <password> or enter
