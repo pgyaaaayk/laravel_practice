@@ -22,3 +22,14 @@ $ yarn run dev
 $ exit
 $ ./stop_docker.sh
 ```
+
+## DBの確認
+
+```
+$ cd laradock
+$ docker exec -it <CONTAINER ID> bash
+$ mysql -u root
+$ <password> or enter
+$ show databases;
+$ show tables from <DATABASE NAME>;
+```
